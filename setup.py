@@ -47,9 +47,7 @@ extras_require = {
         'Sphinx>=1.4.2,<1.4.5',
     ],
     'loader': [
-        'Flask-CLI>=0.2.1',
         'Flask-CeleryExt>=0.2.0',
-        'Flask>=0.10.1',
         'arrow>=0.7.0',
         'dojson>=1.0.0',
         'invenio-db[versioning]>=1.0.0a9',
@@ -87,6 +85,7 @@ setup_requires = [
 ]
 
 install_requires = [
+    'Flask>=0.11.1',
     'Click>=6.3',
     'six>=1.10.0',
     'Werkzeug>=0.11.4',
